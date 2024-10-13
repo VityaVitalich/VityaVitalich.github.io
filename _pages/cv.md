@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: cv_Nikishina_2024-june.pdf
+cv_pdf: Moskvoretskii_CV_october_2024.pdf
 ---
