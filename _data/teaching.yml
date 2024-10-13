@@ -1,143 +1,51 @@
 - title: Student Supervision
   type: time_table
   contents:
-    - title: <a href="https://scholar.google.ae/citations?user=3IDoK8YAAAAJ&hl=en&oi=ao">Viktor Moskvoretskii</a>
-      institution: HSE, online
-      year: 2023-now
-      description:
-      - Project on enhancing LLM with Taxonomic structures
-      - led to the LREC-COLING 2024 paper <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/publications/2024-moskvoretskii-llmstaxo.pdf">Are Large Language Models Good at Lexical Semantics? A Case of Taxonomy Learning</a>, to the ACL 2024 paper <a href="https://arxiv.org/pdf/2403.09207.pdf">TaxoLLaMA\: WordNet-based Model for Solving Multiple Lexical Sematic Tasks</a> and to <a href="https://arxiv.org/abs/2406.12564">Low-Resource Machine Translation through the Lens of Personalized Federated Learning</a>
-    - title: Ahmad Shallouf
-      institution: Universität Hamburg
-      year: 2024
-      description:
-        - master thesis ”CompGLUE\: Datasets and Evaluation System for Comparative Question Answering Tasks”
-        - led to the LREC-COLING 2024 paper <a href="https://aclanthology.org/2024.lrec-main.238/">CAM 2.0: End-to-End Open Domain Comparative Question Answering System</a>
-    - title: Angel Ontiveros
-      institution: Universität Hamburg
-      year: 2024
-      description:
-        - master thesis ”Development and Evaluation of an IT Tool for ESG Compliance Consulting for Companies Using LLMs”
-    - title: Jan Strich
-      institution: Universität Hamburg
-      year: 2024
-      description:
-        - master thesis ”Improving Large Language Models in Repository Level Programming through Self-Alignment and Retrieval-Augmented Generation”
-        - co-supervisor <a href="https://scholar.google.ae/citations?user=dcM0VxcAAAAJ&hl=en&oi=sra">Florian Schneider</a>
-    - title: Maria Manina, Daria Ignatenko, Nikolay Dolgov
-      institution: HSE University
-      year: 2023-2024
-      description:
-        - master project supervision ”Benchmark system for Comparative Question Answering”
-    - title: Alina Rechina
-      institution: HSE University
-      year: 2023-2024
-      description:
-        - consultant for the BSc student thesis with <a href="https://scholar.google.ae/citations?user=3IDoK8YAAAAJ&hl=en&oi=ao">Viktor Moskvoretskii</a> 
-        - title ”Multilingual Large Language Models for predicting IS-A relationships”
-        - led to ACL 2024 paper <a href="https://arxiv.org/pdf/2403.09207.pdf">TaxoLLaMA: WordNet-based Model for Solving Multiple Lexical Sematic Tasks”</a>
     - title: Ekaterina Neminova
       institution: HSE University
-      year: 2023-2024
+      year: 2023-now
       description:
-        - consultant for the BSc student thesis with <a href="https://scholar.google.ae/citations?user=3IDoK8YAAAAJ&hl=en&oi=ao">Viktor Moskvoretskii</a> 
-        - title ”Investigation of Large Language Models for Taxonomy-related Tasks”
-        - led to ACL 2024 paper <a href="https://arxiv.org/pdf/2403.09207.pdf">TaxoLLaMA: WordNet-based Model for Solving Multiple Lexical Sematic Tasks”</a>
-    - title: Ahmad Shallouf, Hannah Herasimchyk, Rudy Garrido Veliz, Natia Mestvirishvii
-      institution: Universität Hamburg
-      year: 2023
-      description:
-        - led to the LREC-COLING 2024 paper <a href="https://aclanthology.org/2024.lrec-main.238/">CAM 2.0: End-to-End Open Domain Comparative Question Answering System</a>
-    - title: Maria Maslova, Stefan Rebrikov
-      institution: HSE University
-      year: 2022-2023
-      description:
-        - master project supervision ”Russian Comparative Argumentative Machine”
-        - led to the AIST 2023 paper <a href="https://link.springer.com/chapter/10.1007/978-3-031-54534-4_6">”RuCAM: Russian Comparative Argumentative Machine”</a>
-    - title: Polina Chernomorchenko
-      institution: HSE University
-      year: 2022-2023
-      description:
-        - BSc student thesis supervision ”Automatic Taxonomy Enrichment Using Generative Models”
-        - led to the led to 2 papers published at <a href="http://www.ijcnlp-aacl2023.org">AACL-2023</a> and <a href="http://aistconf.org">AIST-2023</a> conferences <a href="https://aclanthology.org/2023.findings-ijcnlp.12.pdf">”Predicting Terms in IS-A Relations with Pre-trained Transformers”</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-031-54534-4_4">”Leveraging Taxonomic Information from Large Language Models for Hyponymy Prediction”</a>
-    - title: Alsu Vakhitova
-      institution: Skoltech
-      year: 2022
-      description:
-        - MSc student thesis supervision ”Candidate-free taxonomy enrichment with pre-trained neural language models”
-        - led to the led to 2 papers published at <a href="https://aaclweb.org">AACL-2022</a> and <a href="https://sites.google.com/view/textgraphs2022">TextGraph-16 Workshop</a> <a href="https://aclanthology.org/2022.aacl-demo.5.pdf">”TaxFree: a Visualization Tool for Candidate-free Taxonomy Enrichment”</a> and <a href="https://aclanthology.org/2022.textgraphs-1.2.pdf">”Cross-modal contextualized hidden state projection method for expanding of taxonomic graphs”</a>
-    - title: Anna Safaryan, Petr Filchenkov, Weijia Yan
-      institution: HSE University
-      year: 2020-2021
-      description:
-        - MSc student project co-supervision with <a href="https://scholar.google.com/citations?user=Jq4Wq7AAAAAJ&hl=da">Andrey Kutuzov</a>
-        - led to a paper published at <a href="https://2020.aistconf.org">AIST-2020</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-71214-3_3">”Semantic Recommendation System for Bilingual Corpus of Academic Papers”</a>
+        - BSc thesis co-supervision with Irina Nikishina: "Investigation of Large Language Models for the Taxonomy-related Tasks"
+        - led to ACL 2024 paper <a href="https://aclanthology.org/2024.acl-long.127/">TaxoLLaMA: WordNet-based Model for Solving Multiple Lexical Semantic Tasks</a>
 
-      
-       
+    - title: Alina Lobanova
+      institution: HSE University
+      year: 2023-now
+      description:
+        - BSc thesis co-supervision with Irina Nikishina: "Multilingual Large Language Models for predicting IS-A relationships"
+        - led to ACL 2024 paper <a href="https://aclanthology.org/2024.acl-long.127/">TaxoLLaMA: WordNet-based Model for Solving Multiple Lexical Semantic Tasks</a>
+
 - title: Courses I taught
   type: time_table
   contents:
-    - title: Lecture on Encoder and Decoder Transformers (en)
-      institution: <a href="https://ai-dt.school/generative-ai/">AI & DT school</a> on Transformers
-      year: 2024
-      description: 
-        - duration 1 hour, 
-        - audience Generative AI school participants
-    - title: Course on Transformers
-      institution: MSc students & Data Scientists in the Industry
-      year: 2022 - 2024
-      description: 
-        - <a href="https://github.com/s-nlp/transformers-course/">github repository</a>, <a href="https://github.com/s-nlp/transformers-course/">paper with the course description, accepted to TeachNLP ACL workshop</a>
-    - title: <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/teaching/ma-projects/master-project-web-interfaces.html">Web interfaces for Language Technology Systems</a>
-      institution: Universität Hamburg
-      year: 2023
+    - title: Neural Natural Language Processing (en)
+      institution: HSE University, Moscow
+      year: 2024-2025
       description:
-        - audience MSc students in Computer Science
+        - Role: Lecturer and Seminarian
+        - Audience: 4th year BSc students in Fundamental and Applied Linguistics
+        - Links: <a href="https://github.com/VityaVitalich/DL_NLP_2023">Github</a>
+
+    - title: Tensor Decomposition for Deep Learning (en)
+      institution: Skoltech, Moscow
+      year: 2024
+      description:
+        - Role: Lecturer and Seminarian
+        - Audience: Industrial AI Researchers
+        - Links: <a href="https://github.com/On-Point-RND/Efficient-DL-models-Seminars">Github</a>
+
     - title: Neural Natural Language Processing (en)
-      institution: HSE University, online
-      year: 2021-2023
-      description: 
-        - duration Terms 1 and 2
-        - audience 4th year BSc students in Fundamental and Applied Linguistics 
-        - links <a href="https://github.com/lilaspourpre/nnlp-cl-2022">Github</a>
-    - title: Machine Learning 2 (en)
-      institution: HSE University, online
-      year: 2021-2022
-      description: 
-        - duration Terms 2 and 3
-        - audience 4th year BSc students in Data Science and Business Analytics
-    - title: Neural Natural Language Processing (en)
-      institution: HSE University, online
-      year: 2021-2022
-      description: 
-        - duration Term 4
-        - audience MSc students in Computer Scince
-    - title: Statistical Natural Language Processing (en)
-      institution: HSE University, online
-      year: 2021-2022
-      description: 
-        - <a href="http://files.skoltech.ru/data/edu/syllabuses/2023/MA030555.pdf?v=b3tej0">Course link</a>
-        - duration Term 2
-        - audience MSc students in Computer Scince
-    - title: Applied Research in Culture (ru)
-      institution: HSE University, online
-      year: 2020-2022
-      description: 
-        - <a href="https://www.hse.ru/en/edu/courses/751603509">Course link</a>, <a href="https://github.com/lilaspourpre/hse_culture_python">Github</a>
-        - duration Term 1
-        - audience MSc students in Applied Cultural Studies
-    - title: Programming and Linguistic Data (ru)
-      institution: HSE University
-      year: 2020-2021
-      description: 
-        - <a href="https://www.hse.ru/en/edu/courses/480296949">Course link</a>, <a href="https://github.com/pykili/pykili.github.io">Github</a>
-        - duration Terms 1-4
-        - audience 1st year BSc students in Applied Linguistics
-    - title: Digital Literacy (ru)
-      institution: HSE University
-      year: 2019-2020
-      description: 
-        - <a href="https://www.hse.ru/en/edu/courses/480296949">Course link</a>, <a href="https://github.com/pykili/pykili.github.io">Github</a>
-        - duration Terms 1-4
-        - 1st year BSc students in Applied Cultural Studies 
+      institution: HSE University, Moscow
+      year: 2023-2024
+      description:
+        - Role: Lecturer and Seminarian
+        - Audience: 4th year BSc students in Fundamental and Applied Linguistics
+        - Links: <a href="https://github.com/VityaVitalich/DL_NLP_2023">Github</a>
+
+    - title: Tensor Decomposition for Deep Learning (en)
+      institution: Deep School, Moscow
+      year: 2024
+      description:
+        - Role: Lecturer and Seminarian
+        - Audience: Industrial AI Researchers
+        - Links: <a href="https://github.com/On-Point-RND/Efficient-DL-models-Seminars">Github</a>
