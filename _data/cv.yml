@@ -2,226 +2,134 @@
   type: map
   contents:
     - name: Full Name
-      value: Irina Nikishina
-    - name: Date of Birth
-      value: 13th December 1995
+      value: Viktor Moskvoretskii
     - name: Languages
-      value: Russian, English, French, German
+      value: Russian, English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Science
-      institution: Skoltech, Moscow, Russia
-      year: 2022
-      description: 
-        - supervisor <a href="https://www.google.com/search?client=safari&rls=en&q=alexander+panchenko&ie=UTF-8&oe=UTF-8">Alexander Panchenko</a>
-        - thesis title <a href="https://www.skoltech.ru/app/data/uploads/2022/09/thesis6.pdf">Learning Linguistic Tree Structures with Text and Graph Methods</a>
-    - title: Master's degree (with honors) in Computational Linguistics
+    - title: Master's degree in Machine Learning
       institution: HSE University, Moscow, Russia
-      year: 2019
+      year: 2023-2025
       description:
-        - supervisor <a href="https://scholar.google.com/citations?user=3uvZfeYAAAAJ&hl=en&oi=ao">Anastasiya A. Bonch-Osmolovskaya</a>
-        - thesis title  <a href="https://www.hse.ru/en/en/ma/ling/students/diplomas/page3.html/296305974">Entity Disambiguation to Wikipedia for Languages with Different Corpora Volumes</a>
-    - title: Java and Oracle courses
-      institution: <a href="https://www.innoscripta.com/de/de">Innoscripta</a>
-      year: 2017
+        - GPA: 9.9 / 10
+        - Advisor: <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/irina-nikishina.html">Irina Nikishina</a>
+
+    - title: Graduate Program in AI and Applied Mathematics (with honors)
+      institution: MSU, Moscow, Russia
+      year: 2021-2023
       description:
-        - advisor <a href="https://www.linkedin.com/pub/dir/Dmitry/Amosov">Dmitry Amosov</a>
-        - Oracle, Java, OOP, MapReduce, Postgres, Spring, ONOS, GWT, Ajax
-        - final project Developing a T-SDN controller tester (using selenium, requests, openpyxl, pyyaml Python libraries
-    - title: Exchange Program
-      institution: <a href="https://www.univ-fcomte.fr">Franche-Comte University, France</a>
-      year: 2016
+        - GPA: 8.5 / 10
+        - Final project: Multi-Class Persuasive Content Identification and Relation Extraction in News Text
+        - Advisor: <a href="https://dataschool.yandex.com/dataschool/profile/vorontsov">Konstantin Vorontsov</a>
+
+    - title: Bachelor's degree in Neuroscience (with honors)
+      institution: HSE University, Moscow, Russia
+      year: 2018-2022
       description:
-        - semester spent at Franche-Comte University, courses language was French 
-        - internship project Developing a Python tool for interpreting queries in Relational Algebra
-    - title: Bachelor's degree (with honors) in Fundamental and Computational Linguistics
-      institution: HSE University, Nizhny Novgorod, Russia
-      year: 2017
-      description:
-        - supervisor <a href="https://ch.linkedin.com/in/irina-utkina-6697bab3">Irina Utkina</a>, <a href="https://scholar.google.ae/citations?user=JAsZeNsAAAAJ&hl=en&oi=ao">Alexey Malafeev</a>
-        - thesis title <a href="https://nnov.hse.ru/en/ba/ling/students/diplomas/206735620">Automatic Information Extraction about Persons from News Articles</a>
+        - GPA: 9.2 / 10
+        - Thesis: <a href="https://link.springer.com/article/10.1007/s12144-024-06068-4">Advanced Empirical Research on Grapheme-Color Synesthesia Induction With V4 tDCS Stimulation</a>
+        - Advisors: <a href="https://scholar.google.ru/citations?user=ZmZbd4gAAAAJ&hl=ru">Oksana Zinchenko</a> and <a href="https://scholar.google.ru/citations?user=JvZR6scAAAAJ&hl=ru">Alexey Gorin</a>
 
 - title: Work Experience
   type: time_table
   contents:
-    - title: (Postdoctorate) Research Assistant
-      institution: Universität Hamburg, Germany 
-      year: 2022 - 2025
-      description: 
-        - <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/research/acqua.html">ACQuA-2.0 project</a>, <i>“Development of the Comparative Question Answering system“</i> hosted by <a href="https://scholar.google.com/citations?user=BdwP-3QAAAAJ&hl=en&oi=ao">Chris Biemann</a>
-    - title: Research Engineer (Python)
-      institution: <a href="http://www.skoltech.ru/en">Skoltech</a>
-      year: 2021-2022
-      description: dataset annotation and annotation verification; technical support for the Text Detoxification project
-    - title: Data Scientist, Python NLP engineer
-      institution: <a href="https://www.innoscripta.com/de/de">Innoscripta</a>
-      year: 2021
-      description: Developing system for keyword search, improve NER for extracting keywords and German product names, management of keyword annotation in Doccano for the German language
-    - title: Research assistant in Python and Java in the <a href="https://www.ispras.ru/en/technologies/texterra/">Texterra</a> team
-      institution: <a href="https://www.ispras.ru/en/">ISP RAS</a>
-      year: 2017-2019
-      description: 
-        - NLP research in Entity Linking, writing research articles
-        - supervisors <a href="https://scholar.google.com/citations?user=YYoqDR4AAAAJ&hl=en&oi=ao">Andrey Sysoev</a> and <a href="https://scholar.google.dk/citations?user=ByNnUeIAAAAJ&hl=da">Ivan Andrianov</a>
-    - title: Summer internship
-      institution: MrBot
-      year: 2018
-      description: 
-        - Developing dialogue system architecture in Python
-    - title: Junior software engineer
-      institution: <a href="https://nn.edu-netcracker.com">NetCracker</a>
-      year: 2017
-      description: 
-        - Developing a T-SDN controller automatic testing system (selenium, requests, openpyxl, pyyaml)
-    - title: Summer internship
-      institution: <a href="https://www.univ-fcomte.fr">Franche-Comte University, Besancon, France</a>
-      year: 2016
-      description: 
-        - Developing a Python tool for interpreting queries in Relational Algebra
+    - title: Research Engineer
+      institution: <a href="https://new.skoltech.ru/en/">Skoltech</a>, Moscow, Russia
+      year: 2023-Present
+      description:
+        - LLM Trustworthiness, Mitigating Hallucinations
+        - Lexical Semantics
+        - LLM Efficiency: PEFT and Compression
+        - Machine Translation
+        - Multivariate Time-Series Learning
 
-- title: Organizing Experience
+    - title: Intern Researcher
+      institution: <a href="https://iai.msu.ru">Machine Learning and Semantic Analysis Lab</a>, MSU, Moscow, Russia
+      year: 2023
+      description:
+        - Multi-Class Persuasive Content Identification and Relation Extraction in News Text
+
+    - title: Intern Researcher
+      institution: <a href="https://deeppavlov.ai">DeepPavlov.ai</a>
+      year: 2022-2023
+      description:
+        - Research on Image2Text Dialogue System
+
+    - title: Data Scientist
+      institution: VTB Housing Ecosystem, Moscow, Russia
+      year: 2020-2021
+      description:
+        - Developed Internal Text Data Analysis Product
+        - Sentiment Analysis Implementation
+
+    - title: Intern Researcher
+      institution: <a href="https://social.hse.ru/en/psy/cognus/">HSE UX Lab</a>
+      year: 2019-2020
+      description:
+        - Data analysis, statistical modeling in Neuroscience
+
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https//www.aistconf.org">Analysis of Images, Social Networks and Texts</a>
-      year: 2024
-      description: 
-        - a member of AIST organizing committee, 
-        - conference management, contacting authors/participants, call for papers design and distribution, sending invitations to the reviewers, website design and publishing updates on the website.
-    - title: <a href="https://sites.google.com/view/textgraphs2024">TextGraphs-17</a>
-      year: 2024
-      description: 
-        - member of TextGraphs-17 organizing committee Graph-based Methods for Natural Language Processing collocated with ACL-2024 in Bangkok, Thailand on August 11–16, 2024
-        - organizing <a href="https://sites.google.com/view/textgraphs2024/home/shared-task">shared task</a> in <a href="https://codalab.lisn.upsaclay.fr/competitions/18214">Codalab</a>
-    - title: <a href="https//www.2023.aistconf.org">Analysis of Images, Social Networks and Texts</a>
-      year: 2023
-      description: 
-        - a member of AIST organizing committee, 
-        - conference management, contacting authors/participants, call for papers design and distribution, sending invitations to the reviewers, website design and publishing updates on the website.
-    - title: <a href="https://www.dialog-21.ru/en/dialogue-evaluation/competitions/dialogue-evaluation-2022/ruarg-2022/">RuArg-2022 shared task</a>
-      year: 2022
-      description: 
-        - organizer of Dialogue 2022 shared task on Argument Mining for the Russian Language
-        - links - <a href="https://github.com/dialogue-evaluation/RuArg">Github</a>, <a href="https://codalab.lisn.upsaclay.fr/competitions/786">CodaLab</a>
-    - title: <a href="https://russe.nlpub.org/2022/tox/RUSSE'2022 shared task">RUSSE'2022 shared task</a>
-      year: 2022
-      description: 
-        - organiser of the shared task on Russian Text Detoxification Based on Parallel Corpora for the Dialogue-2022 conference
-        - links <a href="https://github.com/s-nlp/russe_detox_2022/">Github</a>, <a href="https://codalab.lisn.upsaclay.fr/competitions/642">CodaLab</a>
-    - title: <a href="https//www.2021.aistconf.org">Analysis of Images, Social Networks and Texts</a>
-      year: 2021
-      description: 
-        - a member of AIST organizing committee, 
-        - conference management, contacting authors/participants, call for papers design and distribution, sending invitations to the reviewers, website design and publishing updates on the website.
-    - title: <a href="https//www.2020.aistconf.org">Analysis of Images, Social Networks and Texts</a>
-      year: 2020
-      description: 
-        - a member of AIST organizing committee, 
-        - conference management, contacting authors/participants, call for papers design and distribution, sending invitations to the reviewers, website design and publishing updates on the website.
-    - title: <a href="https://russe.nlpub.org/2020/isa/">RUSSE'2020 shared task</a>
-      year: 2020
-      description: 
-        - organiser of the shared task on Taxonomy enrichment for the Dialogue-2020 conference
-        - links - <a href="https://github.com/dialogue-evaluation/taxonomy-enrichment">Github</a>, <a href="https://competitions.codalab.org/competitions/22168">CodaLab</a>
+    - title: Yandex Scholarship 2024
+      description: Awarded for exceptional GPA and significant research contributions
+
+    - title: HSE Academic Scholarship 2024
+      description: Awarded for outstanding academic performance
+
+    - title: HSE Best Paper 2023
+      description: Best student paper award at HSE in 2023
+
+- title: Summer Schools and Conference Participation
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - <a href="https://airi.net/ru/summer-school-2023/">Generative Modeling and RL Summer School by AIRI</a>
+        - <a href="https://smiles.skoltech.ru/2024">AI Summer School by Skoltech</a>
+        - <a href="https://www.hse.ru/winter/cs-2023/">HSE Applied Informatics and Mathematics Winter School</a>
+        - <a href="https://cs.hse.ru/sci_conf2023">HSE Applied Informatics and Mathematics Summer School</a>
+
+    
+    - year: 2022
+      items:
+        - <a href="https://airi.net/ru/summer-school-2022/>NLP and CV Summer School by AIRI</a>
+    
+    - year: 2020
+      items:
+        - <a href="https://ssopt.org/new">Machine Learning and Applied Mathematics Summer School by MIPT and IITP RAS</a>
+
+- title: Academic Interests
+  type: list
+  contents:
+    - Self-Play methods
+    - LLM Trustworthiness
+    - Aignment and AI Safety
+    - Reinforcement Learning for NLP
+    - Lexical Semantics
+    - Taxonomies
 
 - title: Reviewing
   type: time_table
   contents:
-    - title: <a href="https://aclanthology.org/venues/acl/">ACL</a>
-      items: 
-        - 4 papers in 2024, 3 papers in 2023, 1 paper in 2020 as subreviewer
-    - title: <a href="https://2023.emnlp.org">EMNLP</a>
-      items: 
-        - 4 papers 2024, 3 papers in 2023
-    - title: <a href="https://lrec-coling-2024.org">LREC-COLING 2024</a>
-      items: 
-        - 3 papers in 2024
-    - title: <a href="https://easychair.org/cfp/HPCMASC24">HPCMASC24</a>
-      items: 
-        - 1 paper
-    - title: <a href="https://www.thi.de/konvens-2023//">KONVENS 2023</a>
-      items: 
-        - 1 paper in 2023
-    - title: <a href="https://2023.emnlp.org">EMNLP</a>
-      items: 
-        - 4 papers 2024, 3 papers in 2023
-    - title: <a href="https://iclr.cc/Conferences/2021">ICLR 2021</a>
-      items: 
-        - 1 paper as sub-reviewer in 2021
-    - title: <a href="https://www.jmlr.org">J Machine Learning 2021</a>
-      items: 
-        - 1 paper as sub-reviewer
+    - title: ICLR
+      items: 3 papers in 2024
 
+    - title: ACL
+      items: 4 papers in 2024 as subreviewer
 
+    - title: EMNLP
+      items: 4 papers in 2024 as subreviewer
 
-- title: Invited Talks
-  type: time_table
-  contents:
-    - year: 2024
-      items: 
-        - HSE University, Guest seminar on <i>“Taxonomy Enrichment with LLMs”</i>
-        - ISLE Expert Online Forum, Panelist on the topic <i>“Linguistics versus AI”</i>
-    - year: 2023
-      items: 
-        - MBZUAI, UAE, Guest talk on <i>“Comparative Question Answering“</i> and <i>“Taxonomy Enrichment“</i>
-        - NLP Group in Oslo, Norway, Guest seminar on <i>“Taxonomy Enrichment“</i> (based on PhD thesis)
-    - year: 2022
-      items: 
-        - Guest seminar on <i>“Taxonomy Enrichment“</i> (based on the PhD thesis)
-        - Indiana University, USA, Guest seminar on <i>“Taxonomy Enrichment“</i> (based on the PhD thesis)
-    - year: 2021
-      items: 
-        - AIST conference, Tbilisi, Georgia, Guest talk on <i>“Taxonomy Enrichment with Texts and Graph Vector Representations“</i>
-  
-- title: Summer School and Conference participation
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - <a href="https://list.elra.info/mailman3/hyperkitty/list/corpora@list.elra.info/thread/P62W2RSMMBHVO3CYUNROHUAGVLZRHUUN/?sort=date">HPLT & NLPL Winter School on Large-Scale Language Modeling and Neural Machine Translation with Web Data</a>
-        - <a href="https://www.oxfordml.school/oxml2021">Oxford Machine Learning Summer School 2021</a>
-    - year: 2021
-      items:
-        - <a href="https://list.elra.info/mailman3/hyperkitty/list/corpora@list.elra.info/thread/P62W2RSMMBHVO3CYUNROHUAGVLZRHUUN/?sort=date">HPLT & NLPL Winter School on Large-Scale Language Modeling and Neural Machine Translation with Web Data</a>, Norway
-        - <a href="https://www.oxfordml.school/oxml2021">Oxford Machine Learning Summer School 2021</a>, online
-        - <a href="http://alps-2021.imag.fr/index.html">Advanced Language Processing Winter School 2021</a>, online
-    - year: 2020
-      items:
-        - <a href="https://smiles.skoltech.ru/school-2020">The Summer School of Machine Learning</a> at Skoltech (SMILES)
-    - year: 2019
-      items:
-        - <a href="https://www.df.lu.lv/en/research/conferences/esslli-2019">31st European Summer School in Logic, Language line and Information</a>, Riga, Latvia
-        - <a href="https://2019.aistconf.org">8th International Conference --- Analysis of Images, Social Networks and Texts</a> AIST 2019
-    - year: 2017
-      items:
-        - <a href="https://smiles.skoltech.ru/school-2020">The Summer School of Machine Learning</a> at Skoltech (SMILES)
-        - <a href="https://hum.hse.ru/en/digital/school/2017/"> Summer School in Digital Humanities</a>
-        - <a href="http://skil-rggu.ru/category/скил-2017">Student Conference of the Institute of Linguistics (SKIL)</a>
-    - year: 2016
-      items:
-        - <a href="https://nnov.hse.ru/en/news/194813366.html">ConCorT (Student Session)</a>
-    - year: 2014
-      items:
-        - <a href="https://ling.hse.ru/en/iss">Indian Summer School in Linguistics</a>
-        - <a href="https://www.hse.ru/en/news/111363137.html">ConCorT Junior (Student Conference)</a>
-        - <a href="https://www.hse.ru/data/2014/02/18/1330828826/StudKonf\%202014\_Program.pdf">Literature - histoiry, theories, comparativistics (Student Conference))</a>
+    - title: COLING
+      items: 3 papers in 2024 as subreviewer
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Question Answering, 
-    - title: Argument Mining,
-    - title: Retrieval Augmented Generation, 
-    - title: Lexical Semantics, 
-    - title: Taxonomies, Taxonomy Enrichment, 
-    - title: Detoxification, 
-    - title: Relation Extraction, 
-    - title: Entity Linking, 
-    - title: Entity Disambiguation, 
-    - title: Linguistics
+    - title: AINL
+      items: 1 paper in 2024
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> traveling, museums, art galleries,painting, handmade beaded jewelry, France, French culture, foreign languages, gym, ping-pong, snowboarding
+    - Traveling, foreign languages (Spanish, German), powerlifting, armwrestling, music (guitar and piano)
