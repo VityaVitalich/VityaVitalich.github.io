@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lilaspourpre.github.io/sitemap.xml
+Sitemap: https://vityavitalich.github.io/sitemap.xml
