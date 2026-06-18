@@ -188,7 +188,7 @@
 
       <!-- Author -->
       <div class="author">
-        Viktor Moskvoretskii, Dominik Glandorf,
+        Viktor Moskvoretskii<sup>*</sup>, Dominik Glandorf<sup>*</sup>,
         <span class="more-authors" title="click to view 3 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
@@ -201,6 +201,7 @@
                 }
             }, '10');
             ">3 more authors</span>
+        <br><span style="font-size: smaller;">* Equal contribution</span>
       </div>
 
       <!-- Journal/Book title and date -->
@@ -246,11 +247,11 @@
 
       <!-- Author -->
       <div class="author">
-        Julian Minder, Viktor Moskvoretskii,
-        <span class="more-authors" title="click to view 9 more authors" onclick="
+        Julian Minder<sup>*</sup>, Viktor Moskvoretskii<sup>*</sup>, Raghav Singhal<sup>*</sup>,
+        <span class="more-authors" title="click to view 8 more authors" onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '9 more authors' ? 'Raghav Singhal, Difan Jiao, Kartik Bali, Yiderigun Borjigin, Shaobo Cui, Stefan Krsteski, Ashton Anderson, Roland Aydin, Robert West' : '9 more authors';
+              var more_authors_text = element.text() == '8 more authors' ? 'Difan Jiao, Kartik Bali, Yiderigun Borjigin, Shaobo Cui, Stefan Krsteski, Ashton Anderson, Roland Aydin, Robert West' : '8 more authors';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -258,7 +259,8 @@
                   clearInterval(textAdder);
                 }
             }, '10');
-            ">9 more authors</span>
+            ">8 more authors</span>
+        <br><span style="font-size: smaller;">* Equal contribution</span>
       </div>
 
       <!-- Journal/Book title and date -->
