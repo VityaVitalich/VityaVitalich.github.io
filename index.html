@@ -39,7 +39,7 @@
     <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
 
     <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
@@ -98,6 +98,9 @@
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/collaboration/">collaboration</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -159,12 +162,14 @@
 
           <div class="clearfix">
            <p>I am a Fellowship PhD Student in Computer Science at <a href="https://dlab.epfl.ch/" target="_blank">EPFL DLab</a>. 
-             I am now working on LLMs safety under the supervision of <a href="https://dlab.epfl.ch/people/west/" target="_blank">Prof. Robert West</a>. We are largely targeting pre-training phase for safety. </p>
+             I am now working on LLM safety under the supervision of <a href="https://dlab.epfl.ch/people/west/" target="_blank">Prof. Robert West</a>. We are largely targeting the pre-training phase for safety, reflected in the <a href="https://modelraising.ai/" target="_blank">Model Raising</a> paradigm.</p>
             <p>My research interests are Personas inside of the LLM and their connections to safety and general LLM behavior. </p>
             <p>I have previously worked as a Research Lead at <a href="https://www.skoltech.ru/en/laboratories/natural-language-processing-lab" target="_blank">Skoltech NLP Lab </a> focusing on QA and uncertainty estimation.</p>
 <p>I have pursued my M.S. in Machine Learning at HSE University under the supervision of <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html" target="_blank">Prof. Chris Biemann</a> and <a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/irina-nikishina.html" target="_blank">Irina Nikishina</a>.</p>
 
 <p><br></p>
+
+<p>I am open to collaborations and to supervising student projects; see the <a href="/collaboration/">collaboration</a> page.</p>
 
 <p><a href="https://scholar.google.com/citations?user=3IDoK8YAAAAJ&hl=en" rel="external nofollow noopener" target="_blank">Google Scholar</a></p>
 
@@ -176,6 +181,67 @@
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
             <ol class="bibliography">
+<li>
+  <!-- _layouts/bib.html -->
+  <div class="row">
+    <div class="col-sm-2 abbr"></div>
+
+    <!-- Entry bib key -->
+    <div id="minder-2026-spp" class="col-sm-8">
+      <!-- Title -->
+      <div class="title">Synthetic Persona Pretraining: Alignment from Token Zero</div>
+
+      <!-- Author -->
+      <div class="author">
+        Julian Minder<sup>*</sup>, Viktor Moskvoretskii<sup>*</sup>, Raghav Singhal<sup>*</sup>,
+        <span class="more-authors" title="click to view 12 more authors" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '12 more authors' ? 'Difan Jiao, Andy Arditi, Shaobo Cui, Yiderigun Borjigin, Kartik Bali, Stefan Krsteski, Harsh Raj, Huu Nguyen, Jannik Brinkmann, Ashton Anderson, Roland Aydin, Robert West' : '12 more authors';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+            ">12 more authors</span>
+        <br><span style="font-size: smaller;">* Equal contribution</span>
+      </div>
+
+      <!-- Journal/Book title and date -->
+      <div class="periodical">
+        <em>arXiv preprint</em>, 2026
+      </div>
+
+      <!-- Links/Buttons -->
+      <div class="links">
+        <a href="https://arxiv.org/abs/2608.13482" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="https://modelraising.ai/spp/" class="btn btn-sm z-depth-0" role="button">Website</a>
+        <a href="https://www.lesswrong.com/posts/3xQQK9i8mhJDE2uMg/synthetic-persona-pretraining-alignment-from-token-zero" class="btn btn-sm z-depth-0" role="button">Blog</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      </div>
+
+      <div class="badges">
+        <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+        <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+      </div>
+
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@misc{minder2026spp,
+  title        = {Synthetic Persona Pretraining: Alignment from Token Zero},
+  author       = {Minder, Julian and Moskvoretskii, Viktor and Singhal, Raghav and Jiao, Difan and Arditi, Andy and Cui, Shaobo and Borjigin, Yiderigun and Bali, Kartik and Krsteski, Stefan and Raj, Harsh and Nguyen, Huu and Brinkmann, Jannik and Anderson, Ashton and Aydin, Roland and West, Robert},
+  year         = {2026},
+  eprint       = {2608.13482},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2608.13482}
+}</code></pre></figure>
+      </div>
+    </div>
+  </div>
+</li>
 <li>
   <!-- _layouts/bib.html -->
   <div class="row">
@@ -230,63 +296,6 @@
   archivePrefix= {arXiv},
   primaryClass = {cs.CL},
   url          = {https://arxiv.org/abs/2605.13329}
-}</code></pre></figure>
-      </div>
-    </div>
-  </div>
-</li>
-<li>
-  <!-- _layouts/bib.html -->
-  <div class="row">
-    <div class="col-sm-2 abbr"></div>
-
-    <!-- Entry bib key -->
-    <div id="minder-2026-spp" class="col-sm-8">
-      <!-- Title -->
-      <div class="title">Synthetic Persona Pretraining: Alignment from Token Zero</div>
-
-      <!-- Author -->
-      <div class="author">
-        Julian Minder<sup>*</sup>, Viktor Moskvoretskii<sup>*</sup>, Raghav Singhal<sup>*</sup>,
-        <span class="more-authors" title="click to view 8 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '8 more authors' ? 'Difan Jiao, Kartik Bali, Yiderigun Borjigin, Shaobo Cui, Stefan Krsteski, Ashton Anderson, Roland Aydin, Robert West' : '8 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-            ">8 more authors</span>
-        <br><span style="font-size: smaller;">* Equal contribution</span>
-      </div>
-
-      <!-- Journal/Book title and date -->
-      <div class="periodical">
-        <em>LessWrong (blog post; paper in preparation)</em>, 2026
-      </div>
-
-      <!-- Links/Buttons -->
-      <div class="links">
-        <a href="https://www.lesswrong.com/posts/3xQQK9i8mhJDE2uMg/synthetic-persona-pretraining-alignment-from-token-zero" class="btn btn-sm z-depth-0" role="button">Blog</a>
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      </div>
-
-      <div class="badges">
-        <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-        <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-      </div>
-
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@misc{minder2026spp,
-  title        = {Synthetic Persona Pretraining: Alignment from Token Zero},
-  author       = {Minder, Julian and Moskvoretskii, Viktor and Singhal, Raghav and Jiao, Difan and Bali, Kartik and Borjigin, Yiderigun and Cui, Shaobo and Krsteski, Stefan and Anderson, Ashton and Aydin, Roland and West, Robert},
-  year         = {2026},
-  howpublished = {LessWrong blog post},
-  url          = {https://www.lesswrong.com/posts/3xQQK9i8mhJDE2uMg/synthetic-persona-pretraining-alignment-from-token-zero}
 }</code></pre></figure>
       </div>
     </div>
@@ -364,12 +373,13 @@
               <div class="contact-icons">
                 <a href="mailto:vvmoskvoretskii@gmail.com" title="email"><i class="fas fa-envelope"></i></a>
             <a href="https://telegram.me/VityaVitalich" title="telegram" rel="external nofollow noopener" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://x.com/vitya_vitalich" title="X" rel="external nofollow noopener" target="_blank"><i class="fab fa-x-twitter"></i></a>
             <a href="https://github.com/VityaVitalich" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>            
 
               </div>
 
               <div class="contact-note">
-                Feel free to reach out by email or Telegram — I’m happy to connect!
+                Feel free to reach out by email, Telegram, or X — I’m happy to connect!
               </div>
 
             </div>
